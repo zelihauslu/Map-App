@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		DD4F8DDF2895BB7000308605 /* Map_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F8DDE2895BB7000308605 /* Map_AppApp.swift */; };
 		DD4F8DE12895BB7000308605 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F8DE02895BB7000308605 /* ContentView.swift */; };
-		DD4F8DE32895BB7300308605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4F8DE22895BB7300308605 /* Assets.xcassets */; };
 		DD4F8DE62895BB7300308605 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4F8DE52895BB7300308605 /* Preview Assets.xcassets */; };
+		DD4F8DF12895BE5500308605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4F8DF02895BE5500308605 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD4F8DDB2895BB7000308605 /* Map-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Map-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F8DDE2895BB7000308605 /* Map_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_AppApp.swift; sourceTree = "<group>"; };
 		DD4F8DE02895BB7000308605 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DD4F8DE22895BB7300308605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD4F8DE52895BB7300308605 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD4F8DF02895BE5500308605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +51,13 @@
 		DD4F8DDD2895BB7000308605 /* Map-App */ = {
 			isa = PBXGroup;
 			children = (
+				DD4F8DEF2895BC3700308605 /* Models */,
+				DD4F8DEE2895BC2700308605 /* ViewModels */,
+				DD4F8DED2895BC2100308605 /* Views */,
+				DD4F8DEC2895BC1700308605 /* DataServices */,
 				DD4F8DDE2895BB7000308605 /* Map_AppApp.swift */,
 				DD4F8DE02895BB7000308605 /* ContentView.swift */,
-				DD4F8DE22895BB7300308605 /* Assets.xcassets */,
+				DD4F8DF02895BE5500308605 /* Assets.xcassets */,
 				DD4F8DE42895BB7300308605 /* Preview Content */,
 			);
 			path = "Map-App";
@@ -65,6 +69,34 @@
 				DD4F8DE52895BB7300308605 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD4F8DEC2895BC1700308605 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		DD4F8DED2895BC2100308605 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD4F8DEE2895BC2700308605 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DD4F8DEF2895BC3700308605 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +157,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4F8DF12895BE5500308605 /* Assets.xcassets in Resources */,
 				DD4F8DE62895BB7300308605 /* Preview Assets.xcassets in Resources */,
-				DD4F8DE32895BB7300308605 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
