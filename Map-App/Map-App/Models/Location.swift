@@ -8,7 +8,7 @@
 import Foundation
 import MapKit
 
-struct Location{
+struct Location: Identifiable{
     //Objects in the same location can cause problems
    // let ID = UUID().uuidString
     let name : String
