@@ -9,7 +9,8 @@ import SwiftUI
 import MapKit
 
 struct LocationsPreviewView: View {
-    
+    @EnvironmentObject private var vm: LocationsViewModel
+
     let location : Location
     
     var body: some View {
@@ -29,7 +30,6 @@ struct LocationsPreviewView: View {
                 .fill(.ultraThinMaterial)
                 .offset(y: 65)
             )
-            .padding()
             .cornerRadius(10)
     }
 }
@@ -40,6 +40,7 @@ struct LocationsPreviewView_Previews: PreviewProvider {
             Color.blue.ignoresSafeArea()
             LocationsPreviewView(location : LocationsDataService.locations.first!)
         }
+        .environmentObject(LocationsViewModel())
     }
 }
 
@@ -82,7 +83,7 @@ extension LocationsPreviewView{
     
     private var nextButton : some View{
         Button {
-        //
+            vm.nextButtonPressed()
         } label: {
             Text("Next")
                 .frame(width: 125, height: 35)
