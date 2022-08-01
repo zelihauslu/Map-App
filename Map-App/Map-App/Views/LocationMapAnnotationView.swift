@@ -13,7 +13,7 @@ struct LocationMapAnnotationView: View {
     
     var body: some View {
         VStack(spacing: 0) {
-           Image(systemName: "map.circle.fill")
+            Image(systemName: "map.circle.fill")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 30, height: 30)
@@ -21,7 +21,7 @@ struct LocationMapAnnotationView: View {
                 .foregroundColor(.white)
                 .padding(6)
                 .background(accentColor)
-                .clipShape(Circle())
+                .cornerRadius(36)
             
             Image(systemName: "triangle.fill")
                 .resizable()
@@ -29,9 +29,10 @@ struct LocationMapAnnotationView: View {
                 .foregroundColor(accentColor)
                 .frame(width: 10, height: 10)
                 .rotationEffect(Angle(degrees: 180))
-                .offset(y: -4)
-                .padding(.bottom, 40)
+                .offset(y: -3)
+                .padding(.bottom, 35)
         }
+
     }
 }
 
