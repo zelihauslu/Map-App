@@ -17,6 +17,7 @@
 		DD4F8DF92895C8F100308605 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F8DF82895C8F100308605 /* LocationsViewModel.swift */; };
 		DD4F8DFB2895DD1900308605 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F8DFA2895DD1900308605 /* LocationsListView.swift */; };
 		DD4F8DFD289651C000308605 /* LocationsPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F8DFC289651C000308605 /* LocationsPreviewView.swift */; };
+		DD4F8E1E2896E69300308605 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F8E1D2896E69300308605 /* LocationMapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		DD4F8DF82895C8F100308605 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		DD4F8DFA2895DD1900308605 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		DD4F8DFC289651C000308605 /* LocationsPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsPreviewView.swift; sourceTree = "<group>"; };
+		DD4F8E1D2896E69300308605 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				DD4F8DF62895C38E00308605 /* LocationsView.swift */,
 				DD4F8DFC289651C000308605 /* LocationsPreviewView.swift */,
 				DD4F8DFA2895DD1900308605 /* LocationsListView.swift */,
+				DD4F8E1D2896E69300308605 /* LocationMapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD4F8DF52895C16400308605 /* LocationsDataService.swift in Sources */,
+				DD4F8E1E2896E69300308605 /* LocationMapAnnotationView.swift in Sources */,
 				DD4F8DFB2895DD1900308605 /* LocationsListView.swift in Sources */,
 				DD4F8DF92895C8F100308605 /* LocationsViewModel.swift in Sources */,
 				DD4F8DE12895BB7000308605 /* ContentView.swift in Sources */,
