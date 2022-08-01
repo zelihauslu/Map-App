@@ -21,6 +21,8 @@ struct LocationsView: View {
                 Spacer()
                 locationPreviewStack
             }
+        }.sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
+            LocationsDetailView(location: location)
         }
     }
 }
